@@ -1,38 +1,253 @@
-.App {
+body {
+  font-family: 'Bebas Neue', sans-serif;
+  background-color: #F9F9F9;
+  color: #2C3E2F
+}
+
+.logo {
   text-align: center;
+  width: 100%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.footer {
+  background-color: #0b1305;
+  font-weight: 200
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* navbar */
+.action-btn {
+  background-color: #a7f11d;
+  border: none;
+  padding: 15px 25px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.action-btn:hover {
+  background-color: #A5C87D;
+}
+
+/* Heading */
+h1 {
+  font-family: 'Bebas Neue', sans-serif;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 0px;
+  font-size: 3.3em;
+}
+
+/* section1 */
+.banner {
+  position: relative;
+  top: 0px;
+  z-index: -1;
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+}
+
+/* section1 */
+.section1 {
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  background: #EAE6DA;
+  color: #eae6da;
+  text-shadow: 4px 4px 10px #2C3E2F;
+  background-image: url("https://www.womenfitness.net/wp/wp-content/uploads/2018/07/istock-468813768-1000x667.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-size: 1.5rem;
+  font-family: 'Roboto', sans-serif;
 }
 
-.App-link {
-  color: #61dafb;
+#overlay {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.283);
+  z-index: 2;
+  cursor: pointer;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+/* section2 - fixed and responsive */
+.section2 {
+  position: relative;
+  padding: 80px 0;
+}
+
+.text-muted {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  color: #707070;
+}
+.main-image-container{
+  width:600px;
+  height: 600px;
+}
+.main-image {
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+.right-section {
+  padding-left: 60px;
+}
+
+.right-section h1 {
+ 
+}
+
+/* Responsive Fixes */
+@media (max-width: 992px) {
+
+
+  .right-section {
+    padding-left: 30px;
   }
-  to {
-    transform: rotate(360deg);
+}
+
+@media (max-width: 768px) {
+  .footer {
+    text-align: center;
   }
+
+  .section1 {
+    font-size: 1.3rem;
+  }
+
+  .section2 {
+    padding: 50px 20px;
+  }
+
+  .right-section {
+    padding: 20px 10px;
+  }
+
+  .right-section h1,
+  .right-section p {
+    text-align: center;
+  }
+
+
+.right-section h1 {
+font-size: 2.2em;
+}
+  .action-btn {
+    margin: auto;
+    display: block;
+  }
+}
+
+/* section3 */
+
+.section3 {
+  position: relative;
+  padding: 50px;
+  background-color: #a5c87d81;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100vw;
+  height: auto;
+  min-height: 80vh;
+ 
+}
+
+
+.section4 {
+  background-color: #a7f11d;
+  padding: 100px;
+}
+
+.newsletter input {
+  border: none;
+  padding: 10px;
+  background: transparent;
+  font-size: 30px;
+}
+
+.privacy-policy {
+  font-size: 30px;
+}
+.footer{
+  color:#e7e6e6
+}
+.footer p{
+font-family: 'Roboto', sans-serif;
+
+}
+
+.footer-links{
+  font-family: 'Roboto', sans-serif;
+
+ 
+}
+
+a{
+  text-decoration: none;
+
+}
+@media (max-width: 1200px) {
+
+  /* Heading */
+  h1 {
+    font-size: 3em;
+  }
+
+  .newsletter input {
+    font-size: 26px;
+  }
+
+  .privacy-policy {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 992px) {
+
+  .newsletter input {
+    font-size: 22px;
+  }
+}
+
+@media (max-width: 768px) {
+
+  .main-image-container{
+  width:300px;
+  height: 300px;
+}
+  .right-section {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .right-section {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .section4 {
+    padding: 40px 20px;
+  }
+
+  .newsletter input {
+    font-size: 18px;
+  }
+
+  .section3 {
+    text-align: center;
+  }
+}
+
+@media (max-width: 576px) {
+  .newsletter input {
+    font-size: 18px;
+    padding: 8px;
+  }
+
 }
