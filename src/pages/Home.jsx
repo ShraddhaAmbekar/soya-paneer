@@ -50,7 +50,7 @@ const Home = () => {
         <div id="overlay"></div>
         <div className="container text-center">
           <h5 className=' text-white small'> WE OFFER</h5>
-          <h1 className=' text-center'>OUR MENU OF VEGAN GOODNESS</h1>
+          <h1 className=' text-center pb-4'>OUR MENU OF VEGAN GOODNESS</h1>
           <div className="row container">
 
             <div className="col-md-6 col-sm-12 px-5">
@@ -72,10 +72,9 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <div className="container dishes p-5">
-        <h5 className='text-black small text-center'> Our Dishes</h5>
-        <h1 className=' text-center'>Versatile in the Kitchen : Pure for Sure<br /> Soya Paneer fits effortlessly into every meal
-        </h1>
+      <div className="container dishes p-3">
+        <h5 className='text-black small text-center pt-5'> Our Dishes</h5>
+        <h1 className=' text-center'>Versatile in the Kitchen : Pure for Sure<br/> Soya Paneer fits effortlessly into every meal</h1>
         <div className="container">
           <div className="row">
             <div className="col-md-4 col-sm-12">
@@ -99,7 +98,7 @@ const Home = () => {
 
       <div className='secrete container-fluid'>
 
-        <div className=''>
+        <div className='secrete-content'>
           <h5>Primium Selection</h5>
           <h1>Good for You. <br />Good for the Planet.
           </h1>
@@ -114,9 +113,9 @@ const Home = () => {
             Newsletter Sign up</h2></div>
 
           <div className='row'>
-            <div className='col-md-6 col-sm-12 newsletter'>
+            <div className='col-md-6 col-sm-12 newsletter d-flex'>
               <input type="text" placeholder='Enter your email here' />
-              <button className="action-btn mt-3">Submit &nbsp; &nbsp; &nbsp; &nbsp;→</button>
+              <button className="action-btn mt-3">Submit &nbsp; &nbsp;→</button>
             </div>
             <div className="d-flex align-items-center mt-3 col-md-6 col-sm-12">
               <input type="checkbox" className="me-2 p-2" />

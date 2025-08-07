@@ -23,6 +23,7 @@ const Navbar = () => {
     padding: '20px 40px',
     color: 'white',
     zIndex: 1000,
+ 
   };
 
   return (
@@ -51,8 +52,8 @@ const Navbar = () => {
         </div>
 
         {/* Logo Center */}
-        <a className="navbar-brand mx-auto" href="#">
-          <img src="/logo.png" alt="Logo" height="40" />
+        <a className="navbar-brand">
+          <img src="/assets/images/lgo.png" alt="Logo" className='logo'/>
         </a>
 
         {/* Social Icons Right */}
