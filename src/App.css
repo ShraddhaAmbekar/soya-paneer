@@ -1,7 +1,8 @@
 body {
   font-family: 'Bebas Neue', sans-serif;
   background-color: #F9F9F9;
-  color: #2C3E2F
+  /* color: #2C3E2F */
+  color:#008037
 }
 
 .logo {
@@ -10,19 +11,20 @@ body {
 }
 
 .footer {
-  background-color: #0b1305;
+  background-color: #16200e;
   font-weight: 200
 }
 
 /* navbar */
 .action-btn {
-  background-color: #a7f11d;
+  background-color: #008037;
   border: none;
   padding: 15px 25px;
+  color:white
 }
 
 .action-btn:hover {
-  background-color: #A5C87D;
+  background-color: #008037;
 }
 
 /* Heading */
@@ -54,25 +56,15 @@ h1 {
   background: #EAE6DA;
   color: #eae6da;
   text-shadow: 4px 4px 10px #2C3E2F;
-  background-image: url("https://www.womenfitness.net/wp/wp-content/uploads/2018/07/istock-468813768-1000x667.jpg");
+  background-image: url("/public/assets/images/home.jpg");
+  
   background-repeat: no-repeat;
   background-size: cover;
   font-size: 1.5rem;
   font-family: 'Roboto', sans-serif;
+
 }
 
-#overlay {
-  position: absolute;
-  width: 100vw;
-  height: 100vh;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background-color: rgba(0, 0, 0, 0.283);
-  z-index: 2;
-  cursor: pointer;
-}
 
 /* section2 - fixed and responsive */
 .section2 {
@@ -85,23 +77,23 @@ h1 {
   font-size: 16px;
   color: #707070;
 }
-.main-image-container{
-  width:600px;
-  height: 600px;
+
+.main-image-container {
+  width: 550px;
+  height: 550px;
 }
+
 .main-image {
   width: 100%;
   border-radius: 10px;
-  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+
 }
 
 .right-section {
   padding-left: 60px;
 }
 
-.right-section h1 {
- 
-}
+.right-section h1 {}
 
 /* Responsive Fixes */
 @media (max-width: 992px) {
@@ -123,6 +115,7 @@ h1 {
 
   .section2 {
     padding: 50px 20px;
+
   }
 
   .right-section {
@@ -135,9 +128,10 @@ h1 {
   }
 
 
-.right-section h1 {
-font-size: 2.2em;
-}
+  .right-section h1 {
+    font-size: 2.2em;
+  }
+
   .action-btn {
     margin: auto;
     display: block;
@@ -149,18 +143,38 @@ font-size: 2.2em;
 .section3 {
   position: relative;
   padding: 50px;
-  background-color: #a5c87d81;
+  /* background-color: #a5c87d81; */
+  background: url('/public/assets/images/menu.jpg');
+    background-color: #000000;
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: left;
   width: 100vw;
   height: auto;
   min-height: 80vh;
- 
+  color:white
+
+}
+img{
+object-fit: cover;
+width:100%;
+height:100%
 }
 
+.secrete{
+  background-image: url('/public/assets/images/secrate.jpg');
 
+  width: 100vw;
+    background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: start;
+  padding-left: 200px;
+  align-items: center;
+  color:white
+}
 .section4 {
-  background-color: #a7f11d;
+  background-color:#A5F24E;
   padding: 100px;
 }
 
@@ -174,24 +188,31 @@ font-size: 2.2em;
 .privacy-policy {
   font-size: 30px;
 }
-.footer{
-  color:#e7e6e6
-}
-.footer p{
-font-family: 'Roboto', sans-serif;
+
+.footer {
+  color: #e7e6e6;
 
 }
 
-.footer-links{
+.footer p {
   font-family: 'Roboto', sans-serif;
-
- 
+  font-size: 20px;
 }
 
-a{
+.footer-links {
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+}
+
+.footer-links a:hover {
+  margin-left: 10px;
+  transition: all 0.3s;
+}
+
+a {
   text-decoration: none;
-
 }
+
 @media (max-width: 1200px) {
 
   /* Heading */
@@ -206,10 +227,20 @@ a{
   .privacy-policy {
     font-size: 20px;
   }
+
+  .section3{
+    background-position: center;
+    padding: 50px 10px;
+  }
+
+  .secrete {
+background-position: left;
+padding: 10px;
+text-align: center;
+  }
 }
 
 @media (max-width: 992px) {
-
   .newsletter input {
     font-size: 22px;
   }
@@ -217,10 +248,11 @@ a{
 
 @media (max-width: 768px) {
 
-  .main-image-container{
-  width:300px;
-  height: 300px;
-}
+  .main-image-container {
+    width: 300px;
+    height: 300px;
+  }
+
   .right-section {
     padding-left: 20px;
     padding-right: 20px;

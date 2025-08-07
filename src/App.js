@@ -5,13 +5,24 @@ import './App.css';
 import Home from './pages/Home';
 import Navbar from './component/Navbar';
 import NewsletterFooter from './component/Footer';
+import { BrowserRouter } from 'react-router';
+import { Routes, Route } from 'react-router';
 
 function App() {
   return (
     <div className="App">
-      <Navbar/>
-    <Home/>
-    <NewsletterFooter/>
+      <BrowserRouter>
+        <Navbar />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          {/* <Route path="/about" element={<About />} />
+           <Route path="/contact" element={<Contact />}/>
+            <Route path="/products" element={<Products />}/> */
+          }
+          <Route />
+        </Routes>
+        <NewsletterFooter />
+      </BrowserRouter>
     </div>
   );
 }

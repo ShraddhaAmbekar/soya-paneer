@@ -42,11 +42,11 @@ const Navbar = () => {
         {/* Left Links */}
         <div className="collapse navbar-collapse justify-content-start" id="mainNavbar" onClick={() => setIsMenuOpen(false)}>
           <ul className="navbar-nav">
-            <li className="nav-item"><a className="nav-link" style={{ color: 'white' }} href="#home">Home</a></li>
-            <li className="nav-item"><a className="nav-link" style={{ color: 'white' }} href="#about">About</a></li>
+            <li className="nav-item"><a className="nav-link"  href="#home">Home</a></li>
+            <li className="nav-item"><a className="nav-link" href="#about">About</a></li>
             
-            <li className="nav-item"><a className="nav-link" style={{ color: 'white' }} href="#contact">Contact us</a></li>
-             <li className="nav-item"><a className="nav-link" style={{ color: 'white' }} href="#contact">Our Products</a></li>
+            <li className="nav-item"><a className="nav-link" href="#contact">Contact us</a></li>
+             <li className="nav-item"><a className="nav-link"  href="#contact">Our Products</a></li>
           </ul>
         </div>
 

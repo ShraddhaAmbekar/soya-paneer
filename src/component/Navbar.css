@@ -9,7 +9,7 @@
 .navbar .navbar-nav .nav-link {
   position: relative;
   display: inline-block;
-  color: white;
+  color:  white;
   font-size: 1.3em;
    font-weight: 200;
  
@@ -21,8 +21,9 @@ left: 0;
 bottom:-4px;
 width: 0;
 height: 2px;
-background-color: #ffffff;
-transition: width 0.3s ease;
+background-color: #6fff00;
+transition: width 0.7s ease;
+
 
 
 }
