@@ -58,7 +58,6 @@ h1 {
   color: #eae6da;
   text-shadow: 4px 4px 10px #2C3E2F;
   background-image: url("/public/assets/images/home.jpg");
-  
   background-repeat: no-repeat;
   background-size: cover;
   font-size: 1.5rem;
@@ -87,7 +86,6 @@ h1 {
 .main-image {
   width: 100%;
   border-radius: 10px;
-
 }
 
 .right-section {
@@ -98,8 +96,6 @@ h1 {
 
 /* Responsive Fixes */
 @media (max-width: 992px) {
-
-
   .right-section {
     padding-left: 30px;
   }
@@ -152,7 +148,7 @@ h1 {
     background-color: #000000;
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: left;
+
   width: 100vw;
   height: auto;
   min-height: 80vh;
@@ -167,12 +163,12 @@ height:100%
 
 .secrete{
   background-image: url('/public/assets/images/secrate.jpg');
-background-size: cover;
-background-repeat: no-repeat;
+  background-size: cover;
+  background-repeat: no-repeat;
   width: 100vw;
-    display: flex;
-    justify-content: center;
-    align-items:center;
+  display: flex;
+  justify-content: center;
+  align-items:center;
   height: 100vh;
   display: flex;
   justify-content: start;
@@ -236,21 +232,20 @@ a {
   }
 
   .section3{
-  background-image: url('/public/assets/images/menu-mobile.jpg');
+    background-image: url('/public/assets/images/menu-mobile.jpg');
     padding: 50px 10px;
-width: 100vw;
-height: fit-content;
-background-repeat: repeat-y;
-background-size: contain;
-
+    width: 100vw;
+    height: fit-content;
+    background-repeat: repeat-y;
+    background-size: cover;
   }
 
   .secrete {
-background-position: left;
-padding: 10px;
-text-align: center;
-min-height: 400px;
-height: auto;
+  background-position: left;
+  padding: 10px;
+  text-align: center;
+  min-height: 400px;
+  height: auto;
   }
 }
 
@@ -268,6 +263,7 @@ h1{
 .logo{
   position: fixed;
 }
+
   .main-image-container {
     width: 300px;
     height: 300px;
