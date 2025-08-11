@@ -1,6 +1,6 @@
 .custom-navbar {
   font-size: 20px ;
-  padding: 10px 50px;
+  padding: 20px 50px;
  font-weight: 200;
 }
 .navbar-brand{
@@ -79,5 +79,9 @@ transition: width 0.7s ease;
 .logo{
   height: 100%;
   width: 100%;
+}
+
+.custom-navbar{
+  padding: 0 30px;
 }
 }

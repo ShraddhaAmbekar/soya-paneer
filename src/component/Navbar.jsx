@@ -21,7 +21,7 @@ const Navbar = () => {
   const navbarStyle = {
     backgroundColor: shouldBeBlack ? ' #16200ee3' : 'transparent',
     transition: 'background-color 0.3s ease',
-    padding: '20px 40px',
+    
     color: 'white',
     zIndex: 1000,
  
