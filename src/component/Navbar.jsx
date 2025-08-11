@@ -8,6 +8,7 @@ const Navbar = () => {
   useEffect(() => {
     const handleScroll = () => {
       setIsScrolled(window.scrollY > 200);
+      
     };
 
     window.addEventListener('scroll', handleScroll);
@@ -29,6 +30,10 @@ const Navbar = () => {
   return (
     <nav className="navbar navbar-expand-lg fixed-top custom-navbar" style={navbarStyle}>
       <div className="container-fluid">
+
+         <a className="navbar-brand">
+          <img src="/assets/images/logo.png" alt="Logo" className='logo'/>
+        </a>
         {/* Toggle Button */}
         <button
           className="navbar-toggler"
@@ -52,9 +57,7 @@ const Navbar = () => {
         </div>
 
         {/* Logo Center */}
-        <a className="navbar-brand">
-          <img src="/assets/images/lgo.png" alt="Logo" className='logo'/>
-        </a>
+       
 
         {/* Social Icons Right */}
         <div className="collapse navbar-collapse justify-content-end" id="mainNavbar">

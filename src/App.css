@@ -263,13 +263,11 @@ h1{
   font-size: 2.2em;
 }
 
-.logo{
-  position: fixed;
-}
+
 
 .section1{
- background-image: url("/public/assets/images/home-mobile.png");
-      background-size: cover;
+    background-image: url("/public/assets/images/home-mobile.png");
+    background-size: cover;
 }
 
   .main-image-container {
@@ -299,12 +297,13 @@ h1{
     text-align: center;
   }
     .secrete {
- 
   padding: 100px 50px ;
-background-size: cover;
+  background-size: cover;
   width: 100vw;
   height: auto;
   }
+
+  
 }
 
 @media (max-width: 576px) {
