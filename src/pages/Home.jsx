@@ -1,6 +1,5 @@
 import React from 'react';
 
-
 const Home = () => {
   return (
     <div>
@@ -28,12 +27,11 @@ const Home = () => {
             </div>
 
             {/* Right Text Section */}
-            <div className="col-md-6 right-section ">
+            <div className="col-md-6 right-section " id='about'>
               <p className="text-black small">PLANT-BASED PERFECTION</p>
               <h1 className="mb-4">WE DON'T JUST SAY 'PURE'<br /> WE MEAN IT</h1>
               <p className="text-muted">
                 Our Soya Paneer is a plant-based powerhouse of nutrition, crafted for those who care about purity, health, and sustainable choices. Whether you're vegan, lactose-intolerant, or simply conscious about clean eating, Pure for Sure brings you a safe, protein-rich alternative- without compromise.
-
               </p>
 
               <div className='action-div'>

@@ -59,9 +59,10 @@ const Navbar = () => {
         {/* Social Icons Right */}
         <div className="collapse navbar-collapse justify-content-end" id="mainNavbar">
           <ul className="navbar-nav">
-            <li className="nav-item"><a className="nav-link" style={{ color: 'white', }} href="#"><i className="fab fa-facebook-f"></i></a></li>
-            <li className="nav-item"><a className="nav-link" style={{ color: 'white' }} href="#"><i className="fab fa-instagram"></i></a></li>
-            <li className="nav-item"><a className="nav-link" style={{ color: 'white' }} href="#"><i className="fab fa-twitter"></i></a></li>
+            <li className="nav-item"><a className="nav-link" style={{ color: 'white', }} href=""><i className="fab fa-whatsapp"></i></a></li>
+            <li className="nav-item"><a className="nav-link" style={{ color: 'white', }} href="https://www.facebook.com/profile.php?id=61578200260052"><i className="fab fa-facebook-f"></i></a></li>
+            <li className="nav-item"><a className="nav-link" style={{ color: 'white' }} href="https://www.instagram.com/theveganfoodz?igsh=MXVscnRoZmo1MHFmMA=="><i className="fab fa-instagram"></i></a></li>
+            <li className="nav-item"><a className="nav-link" style={{ color: 'white' }} href="https://x.com/"><i className="fab fa-twitter"></i></a></li>
           </ul>
         </div>
       </div>
