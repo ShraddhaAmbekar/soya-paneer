@@ -109,9 +109,9 @@ h1 {
   .section1 {
       font-size: 1.3rem;
       background-image: url("/public/assets/images/home-mobile.png");
+      background-size: cover;
       height: 100vh;
       width: 100vw;
-      background-position: bottom;
   }
 
   .section2 {
