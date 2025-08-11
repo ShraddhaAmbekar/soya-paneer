@@ -230,7 +230,10 @@ a {
   .privacy-policy {
     font-size: 20px;
   }
-
+.section1{
+   background-image: url("/public/assets/images/home-mobile.png");
+      background-size: cover;
+}
   .section3{
     background-image: url('/public/assets/images/menu-mobile.jpg');
     padding: 50px 10px;
@@ -262,6 +265,11 @@ h1{
 
 .logo{
   position: fixed;
+}
+
+.section1{
+ background-image: url("/public/assets/images/home-mobile.png");
+      background-size: cover;
 }
 
   .main-image-container {
