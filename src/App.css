@@ -45,6 +45,7 @@ h1 {
   width: 100vw;
   height: 100vh;
   object-fit: cover;
+
 }
 
 /* section1 */
@@ -216,6 +217,10 @@ a {
   text-decoration: none;
 }
 
+.closing-tagline{
+  color: #013316;
+}
+
 @media (max-width: 1200px) {
 
   /* Heading */
@@ -233,6 +238,7 @@ a {
 .section1{
    background-image: url("/public/assets/images/home-mobile.png");
       background-size: cover;
+      background-position: bottom;
 }
   .section3{
     background-image: url('/public/assets/images/menu-mobile.jpg');

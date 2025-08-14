@@ -1,5 +1,6 @@
 // NewsletterFooter.js
 import React from 'react';
+import { Link } from 'react-router';
 
 const Footer = () => {
   return (
@@ -20,18 +21,25 @@ const Footer = () => {
             <p> Vegan Foods<br />
             277 Omkar Road, Dehradun, Uttarakhand, Pin -248001 </p>
             <p>Email: <a href="mailto:info@theveganfood.com" className="text-white text-decoration-underline">info@theveganfoods.com</a></p>
-            <p>Phone: <a href="t" className="text-white text-decoration-underline">+</a></p>
+            <p>Phone: 
+              <a className="text-white text-decoration-underline"> +91 8755259301</a><br />
+              <a className="text-white text-decoration-underline">  +91 8755259302 (Founder)</a><br /> &nbsp; &nbsp; &nbsp;
+                <a className="text-white text-decoration-underline"> +91 8755259303</a><br /> &nbsp; &nbsp; &nbsp;
+      <a className="text-white text-decoration-underline">+91 8755259304</a><br /> &nbsp; &nbsp;    <a className="text-white text-decoration-underline"> +91 8755259305 (Sales) </a><br />
+
+                </p>
+
           </div>
 
           <div className="col-md-3 pb-5">
             <h4 className="mb-5">Links</h4>
             <ul className="list-unstyled footer-links">
-              <li><a href="#" className="text-white"> <i className='fas fa-angle-right'> </i> Home</a></li>
+              <li><Link to="/" className="text-white"> <i className='fas fa-angle-right'> </i> Home</Link></li>
 
-              <li><a href="#about" className="text-white"><i className='fas fa-angle-right'></i> About</a></li>
+              <li><Link to="/about" className="text-white"><i className='fas fa-angle-right'></i> About</Link></li>
 
-              <li><a href="#" className="text-white"><i className='fas fa-angle-right'></i> Contacts </a></li>
-              <li><a href="#" className="text-white"><i className='fas fa-angle-right'></i > Our products</a></li>
+              <li><Link to="/contact" className="text-white"><i className='fas fa-angle-right'></i> Contacts </Link></li>
+              <li><Link to="/product" className="text-white"><i className='fas fa-angle-right'></i > Our products</Link></li>
             </ul>
           </div>
 

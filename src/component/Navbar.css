@@ -83,5 +83,25 @@ transition: width 0.7s ease;
 
 .custom-navbar{
   padding: 0 30px;
+  background-color: #16200ee3 !important;
 }
+}
+.custom-navbar {
+  background-color: transparent;
+  transition: background-color 0.3s ease;
+}
+.custom-navbar.scrolled {
+  background-color: #16200ee3;
+}
+
+.navbar-nav .nav-link {
+  color: white !important;
+}
+
+.navbar-toggler-icon {
+  background-color: #ffffff;
+}
+
+@media(max-width: 768){
+  
 }

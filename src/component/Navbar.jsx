@@ -1,71 +1,95 @@
-import React, { useEffect, useState } from 'react';
-import './Navbar.css'
+import React, { useEffect, useState } from "react";
+import { Link, NavLink } from "react-router-dom";
+import "./Navbar.css";
 
 const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
-  const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   useEffect(() => {
     const handleScroll = () => {
       setIsScrolled(window.scrollY > 200);
-      
     };
-
-    window.addEventListener('scroll', handleScroll);
-    return () => window.removeEventListener('scroll', handleScroll);
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
-  // Final background logic
-  const shouldBeBlack = isScrolled || isMenuOpen;
-
-  const navbarStyle = {
-    backgroundColor: shouldBeBlack ? ' #16200ee3' : 'transparent',
-    transition: 'background-color 0.3s ease',
-    
-    color: 'white',
-    zIndex: 1000,
- 
+  // Close menu on link click
+  const closeMenu = () => {
+    const navbar = document.getElementById("mainNavbar");
+    if (navbar.classList.contains("show")) {
+      navbar.classList.remove("show");
+    }
   };
 
   return (
-    <nav className="navbar navbar-expand-lg fixed-top custom-navbar" style={navbarStyle}>
+    <nav
+      className={`navbar navbar-expand-lg fixed-top custom-navbar ${
+        isScrolled ? "scrolled" : ""
+      }`}
+    >
       <div className="container-fluid">
+        {/* Logo */}
+        <Link className="navbar-brand" to="/">
+          <img src="/assets/images/logo.png" alt="Logo" className="logo" />
+        </Link>
 
-         <a className="navbar-brand">
-          <img src="/assets/images/logo.png" alt="Logo" className='logo'/>
-        </a>
         {/* Toggle Button */}
         <button
           className="navbar-toggler"
           type="button"
-          onClick={() => setIsMenuOpen(!isMenuOpen)}
           data-bs-toggle="collapse"
           data-bs-target="#mainNavbar"
         >
           <span className="navbar-toggler-icon"></span>
         </button>
 
-        {/* Left Links */}
-        <div className="collapse navbar-collapse justify-content-start" id="mainNavbar" onClick={() => setIsMenuOpen(false)}>
-          <ul className="navbar-nav">
-            <li className="nav-item"><a className="nav-link"  href="#home">Home</a></li>
-            <li className="nav-item"><a className="nav-link" href="#about">About</a></li>
-            
-            <li className="nav-item"><a className="nav-link" href="#contact">Contact us</a></li>
-             <li className="nav-item"><a className="nav-link"  href="#contact">Our Products</a></li>
+        {/* All Menu Items */}
+        <div className="collapse navbar-collapse" id="mainNavbar">
+          <ul className="navbar-nav me-auto">
+            <li className="nav-item">
+              <NavLink className="nav-link" to="/" end onClick={closeMenu}>
+                Home
+              </NavLink>
+            </li>
+            <li className="nav-item">
+              <NavLink className="nav-link" to="/about" onClick={closeMenu}>
+                About
+              </NavLink>
+            </li>
+            <li className="nav-item">
+              <NavLink className="nav-link" to="/products" onClick={closeMenu}>
+                Our Products
+              </NavLink>
+            </li>
+            <li className="nav-item">
+              <NavLink className="nav-link" to="/contact" onClick={closeMenu}>
+                Contact Us
+              </NavLink>
+            </li>
           </ul>
-        </div>
 
-        {/* Logo Center */}
-       
-
-        {/* Social Icons Right */}
-        <div className="collapse navbar-collapse justify-content-end" id="mainNavbar">
-          <ul className="navbar-nav">
-            <li className="nav-item"><a className="nav-link" style={{ color: 'white', }} href=""><i className="fab fa-whatsapp"></i></a></li>
-            <li className="nav-item"><a className="nav-link" style={{ color: 'white', }} href="https://www.facebook.com/profile.php?id=61578200260052"><i className="fab fa-facebook-f"></i></a></li>
-            <li className="nav-item"><a className="nav-link" style={{ color: 'white' }} href="https://www.instagram.com/theveganfoodz?igsh=MXVscnRoZmo1MHFmMA=="><i className="fab fa-instagram"></i></a></li>
-            <li className="nav-item"><a className="nav-link" style={{ color: 'white' }} href="https://x.com/"><i className="fab fa-twitter"></i></a></li>
+          {/* Social Icons */}
+          <ul className="navbar-nav ms-auto">
+            <li className="nav-item">
+              <a className="nav-link" href="https://wa.me/918755259301" target="_blank" rel="noreferrer">
+                <i className="fab fa-whatsapp"></i>
+              </a>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link" href="https://www.facebook.com/profile.php?id=61578200260052" target="_blank" rel="noreferrer">
+                <i className="fab fa-facebook-f"></i>
+              </a>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link" href="https://www.instagram.com/theveganfoodz" target="_blank" rel="noreferrer">
+                <i className="fab fa-instagram"></i>
+              </a>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link" href="https://x.com/" target="_blank" rel="noreferrer">
+                <i className="fab fa-twitter"></i>
+              </a>
+            </li>
           </ul>
         </div>
       </div>
