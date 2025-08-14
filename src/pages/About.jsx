@@ -26,7 +26,7 @@ const About = () => {
           </div>
           <div className="col-lg-6">
             <h1 className="mb-3">Our Mission</h1>
-            <p className="text-muted">
+            <p className="text-muted px-3">
        To empower individuals to make healthier, ethical, and sustainable food choices by delivering pure, guilt-free, and vegan products that offer unmatched nutritional value and taste — starting with our Pure for Sure Soya Paneer.
 
             </p>
@@ -43,7 +43,7 @@ const About = () => {
           </div>
           <div className="col-lg-6">
             <h1 className="mb-3">Our Vision</h1>
-            <p className="text-muted">
+            <p className="text-muted px-3">
 To become a trusted name in plant-based nutrition by leading the shift from adulterated and unhealthy food options to clean, sustainable, and cruelty-free alternatives — making a healthier planet and healthier people a reality.
 
             </p>
@@ -81,7 +81,7 @@ To become a trusted name in plant-based nutrition by leading the shift from adul
       {/* Closing Statement */}
       <section className="about-closing">
         <div className="container text-center">
-          <p>
+          <p className="">
             At The Vegan Foods, we’re not just selling food; we’re starting a
             movement towards a healthier, cleaner, and more compassionate world.
           </p>

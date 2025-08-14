@@ -20,7 +20,7 @@ body {
 .action-btn {
   background-color: #008037;
   border: none;
-  padding: 5px 25px;
+  padding: 15px 25px;
   color:white
 }
 
@@ -34,7 +34,7 @@ h1 {
   font-weight: 400;
   text-transform: uppercase;
   letter-spacing: 0px;
-  font-size: 3.3em;
+  font-size: 3.4em;
 }
 
 /* section1 */
@@ -75,8 +75,9 @@ h1 {
 
 .text-muted {
   font-family: 'Roboto', sans-serif;
-  font-size: 16px;
+  font-size: 20px;
   color: #707070;
+ 
 }
 
 .main-image-container {
@@ -135,8 +136,11 @@ h1 {
 
   .action-btn {
     margin: auto;
+    padding:15px;
     display: block;
   }
+
+
 }
 
 /* section3 */
