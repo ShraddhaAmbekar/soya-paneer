@@ -9,6 +9,7 @@ import { BrowserRouter } from 'react-router';
 import { Routes, Route } from 'react-router';
 import About from './pages/About';
 import ScrollToTop from './pages/ScrollToTop';
+import Contact from './pages/Contact';
 
 function App() {
   return (
@@ -19,7 +20,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
            <Route path="/about" element={<About />} />
-           {/* <Route path="/contact" element={<Contact />}/> */}
+           <Route path="/contact" element={<Contact />}/> 
             {/* <Route path="/products" element={<Products />}/> */ }
           
           <Route />

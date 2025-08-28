@@ -1,0 +1,230 @@
+/* ========================= */
+/* HERO SECTION */
+/* ========================= */
+.contact-hero {
+  background: url("/public/assets/images/home.jpg") center/cover no-repeat;
+  position: relative;
+  height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact-hero .overlay {
+  background: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.6);
+}
+
+.contact-hero .overlay h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+.contact-hero .overlay p {
+  font-size: 1.1rem;
+  max-width: 600px;
+  margin: auto;
+}
+
+/* ========================= */
+/* MAIN CONTENT */
+/* ========================= */
+.contact-content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  justify-content: center;
+  margin-top: 40px;
+  padding: 20px;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Contact Info */
+.contact-info {
+  flex: 1 1 350px;
+}
+
+/* Contact Form */
+.contact-form {
+  flex: 1 1 350px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.contact-form h1 {
+  font-size: 1.8rem;
+  margin-bottom: 15px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 15px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  width: 100%;
+}
+
+.contact-form textarea {
+  resize: vertical;
+  min-height: 150px;
+}
+
+/* Button */
+.btn-success {
+  background-color: #008037;
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: 0.3s ease;
+  width: fit-content;
+}
+
+.btn-success:hover {
+  background-color: #006c2f;
+  transform: scale(1.05);
+}
+
+/* ========================= */
+/* ICON BOXES */
+/* ========================= */
+.icon-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.icon-box {
+  flex: 1 1 250px;
+
+  height: auto;
+  padding: 20px;
+  background-color: #00803709;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  transition: 0.3s ease;
+}
+
+.icon-box:hover {
+  background-color: #00803715;
+  transform: translateY(-5px);
+}
+
+.icon {
+  font-size: 50px;
+}
+
+.whatsapp {
+  color: #fff;
+  background: linear-gradient(#25d366, #25d366) 14% 84%/16% 16% no-repeat,
+              radial-gradient(#25d366 60%, transparent 0);
+  font-size: 60px;
+  transition: 0.3s ease;
+  border-radius: 50%;
+  padding: 10px;
+}
+
+.whatsapp:hover {
+  transform: scale(1.1);
+  filter: drop-shadow(0 0 8px #25d366);
+}
+
+/* ========================= */
+/* MAP */
+/* ========================= */
+.map-container {
+  margin-top: 40px;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+.map-container iframe {
+  width: 100%;
+  border: none;
+  min-height: 350px;
+}
+
+/* ========================= */
+/* RESPONSIVE DESIGN */
+/* ========================= */
+
+/* Tablets */
+@media (max-width: 992px) {
+  .contact-hero .overlay h1 {
+    font-size: 2rem;
+  }
+  .contact-hero .overlay p {
+    font-size: 1rem;
+  }
+  .contact-content {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+/* Mobiles */
+@media (max-width: 576px) {
+  .contact-hero {
+   
+  }
+  .contact-hero .overlay h1 {
+    font-size: 1.5rem;
+  }
+  .contact-hero .overlay p {
+    font-size: 0.9rem;
+  }
+
+  .contact-form input,
+  .contact-form textarea {
+    min-width: 300px;
+    font-size: 0.9rem;
+  }
+
+  .btn-success {
+    font-size: 0.9rem;
+    padding: 10px 20px;
+  }
+
+  .icon-container {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+
+  }
+
+  .icon-box {
+    flex: 1 1 180px;
+font-size:10px ;
+    max-width: 350px;  /* keeps icons neat */
+    margin: 10px;
+  }
+
+  .icon {
+    font-size: 35px;
+  }
+  .whatsapp {
+    font-size: 45px;
+    padding: 8px;
+  }
+}

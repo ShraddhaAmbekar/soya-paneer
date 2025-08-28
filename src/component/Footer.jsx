@@ -21,12 +21,11 @@ const Footer = () => {
             <p> Vegan Foods<br />
             277 Omkar Road, Dehradun, Uttarakhand, Pin -248001 </p>
             <p>Email: <a href="mailto:info@theveganfood.com" className="text-white text-decoration-underline">info@theveganfoods.com</a></p>
-            <p>Phone: 
-              <a className="text-white text-decoration-underline"> +91 8755259301</a><br />
-              <a className="text-white text-decoration-underline">  +91 8755259302 (Founder)</a><br /> &nbsp; &nbsp; &nbsp;
-                <a className="text-white text-decoration-underline"> +91 8755259303</a><br /> &nbsp; &nbsp; &nbsp;
-      <a className="text-white text-decoration-underline">+91 8755259304</a><br /> &nbsp; &nbsp;    <a className="text-white text-decoration-underline"> +91 8755259305 (Sales) </a><br />
-
+            <p>Phone: &nbsp; 
+              <a className="text-white text-decoration-underline"> +91 8755259301</a><br />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+                <a className="text-white text-decoration-underline"> +91 8755259303</a><br /> &nbsp; &nbsp; &nbsp; &nbsp; 
+      <a className="text-white text-decoration-underline">+91 8755259304</a><br /> &nbsp; &nbsp;    <a className="text-white text-decoration-underline"> +91 8755259305 (Sales) </a><br />&nbsp; &nbsp; 
+   <a className="text-white text-decoration-underline">  +91 8755259302 (Founder)</a><br /> &nbsp; &nbsp; &nbsp;
                 </p>
 
           </div>
@@ -49,16 +48,16 @@ const Footer = () => {
             <ul className="list-unstyled d-flex">
               
               <li >
-                <a style={{ color: 'white', border: '1px white solid', margin: '10px', padding: '15px' }} href=""><i className='fab fa-whatsapp'></i></a>
+                <a style={{ color: 'white', border: '1px white solid', margin: '10px', padding: '15px' }} href="https://wa.me/918755259301?text=Hello%20I%20want%20to%20know%20more" target='_blank'><i className='fab fa-whatsapp'></i></a>
               </li>
               <li >
-                <a style={{ color: 'white', border: '1px white solid', margin: '10px', padding: '15px' }} href="https://www.facebook.com/profile.php?id=61578200260052"><i className="fab fa-facebook-f"></i></a>
+                <a style={{ color: 'white', border: '1px white solid', margin: '10px', padding: '15px' }} href="https://www.facebook.com/profile.php?id=61578200260052"  target='_blank'><i className="fab fa-facebook-f"></i></a>
               </li>
               <li>
-                <a style={{ color: 'white', border: '1px white solid', padding: '15px', margin: '10px' }} href="https://www.instagram.com/theveganfoodz?igsh=MXVscnRoZmo1MHFmMA=="><i className="fab fa-instagram"></i></a>
+                <a style={{ color: 'white', border: '1px white solid', padding: '15px', margin: '10px' }} href="https://www.instagram.com/theveganfoodz?igsh=MXVscnRoZmo1MHFmMA=="  target='_blank'><i className="fab fa-instagram"></i></a>
               </li>
               <li >
-                <a style={{ color: 'white', border: '1px white solid', padding: '15px', margin: '10px' }} href="https://x.com/"><i className="fab fa-twitter"></i></a>
+                <a style={{ color: 'white', border: '1px white solid', padding: '15px', margin: '10px' }} href="https://x.com/"  target='_blank'><i className="fab fa-twitter"></i></a>
               </li>
             </ul>
           </div>

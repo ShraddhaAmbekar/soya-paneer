@@ -9,7 +9,7 @@ const About = () => {
         <div className="overlay">
           <div className="container text-center">
             <h1>About Us – The Vegan Foods</h1>
-            <p>🌱 Pure bhi, Healthy bhi — Pure for Sure.</p>
+            <p> Pure bhi, Healthy bhi — Pure for Sure.</p>
           </div>
         </div>
       </section>
@@ -59,19 +59,19 @@ To become a trusted name in plant-based nutrition by leading the shift from adul
             <div className="col-md-6">
               <h2 className=" mb-3">Why Choose Soya Paneer & Vegan?</h2>
               <ul>
-                <li>💪 Power Protein, Low Fat — fuel your body, not your waistline.</li>
-                <li>❤️ Heart & Gut Friendly — no cholesterol, no lactose.</li>
-                <li>⚖️ Weight Wise — keeps you fit, light, and active.</li>
-                <li>🌾 Gluten-Free Goodness — safe for sensitive diets.</li>
+                <li>Power Protein, Low Fat — fuel your body, not your waistline.</li>
+                <li>Heart & Gut Friendly — no cholesterol, no lactose.</li>
+                <li>Weight Wise — keeps you fit, light, and active.</li>
+                <li>Gluten-Free Goodness — safe for sensitive diets.</li>
               </ul>
             </div>
             <div className="col-md-6">
               <h2 className="mb-3">Why Vegan Over Adulterated Paneer?</h2>
               <ul>
-                <li>🚫 No Nasties — zero chemicals or fillers.</li>
-                <li>✅ Pure & Honest — only natural ingredients.</li>
-                <li>🌍 Planet-Friendly — cruelty-free & sustainable.</li>
-                <li>😋 Taste Without Guilt — flavour meets ethics.</li>
+                <li>No Nasties — zero chemicals or fillers.</li>
+                <li>Pure & Honest — only natural ingredients.</li>
+                <li>Planet-Friendly — cruelty-free & sustainable.</li>
+                <li>Taste Without Guilt — flavour meets ethics.</li>
               </ul>
             </div>
           </div>
@@ -85,7 +85,7 @@ To become a trusted name in plant-based nutrition by leading the shift from adul
             At The Vegan Foods, we’re not just selling food; we’re starting a
             movement towards a healthier, cleaner, and more compassionate world.
           </p>
-                  <h4 className="closing-tagline">🌱 Pure bhi, Healthy bhi — Pure for Sure.</h4>
+                  <h4 className="closing-tagline">Pure bhi, Healthy bhi — Pure for Sure.</h4>
         </div>
       </section>
     </>
