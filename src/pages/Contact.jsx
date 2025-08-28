@@ -38,7 +38,7 @@ const Contact = () => {
         <div className="overlay">
           <div className="container text-center">
             <h1>Contact Us</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing qui? Minima, mollitia!</p>
+            <p>Want to get in touch? We'd love to hear from you. Here's how you can reach us.</p>
           </div>
         </div>
       </section>
@@ -49,7 +49,7 @@ const Contact = () => {
               <div className="d-flex">
                 <div className="icon-box text-center">
                   <div>
-                    <i class="fa fa-phone icon"></i>
+                    <i className="fa fa-phone icon"></i>
                     <br /><br />
                     <h5>Phone</h5>
                     <p>+91 8755259301</p>
@@ -58,7 +58,7 @@ const Contact = () => {
 
                 <div className="icon-box text-center">
                   <div>
-                    <a href="https://wa.me/918755259301?text=Hello%20I%20want%20to%20know%20more" target="_blank"> <i class='fab fa-whatsapp whatsapp icon'></i></a>
+                    <a href="https://wa.me/918755259301?text=Hello%20I%20want%20to%20know%20more" target="_blank"> <i className='fab fa-whatsapp whatsapp icon'></i></a>
 
                     <br /><br />
                     <h5>Whatsapp</h5>
@@ -70,13 +70,13 @@ const Contact = () => {
               <div className='d-flex'>
                 <div className="icon-box text-center">
                   <div>  <a href="https://mail.google.com/mail/?view=cm&fs=1&to=info@theveganfoods.com&su=Hello&body=I%20want%20to%20connect%20with%20you." target="_blank" className='text-success'>
-                    <i class='fa fa-envelope icon'></i></a>
+                    <i className='fa fa-envelope icon'></i></a>
 
                     <br /><br />
                     <h5>E-mail</h5>
                     <p>info@theveganfoods.com</p>
                   </div></div>
-                <div className="icon-box  text-center"><div><i class="fa fa-address-card icon " aria-hidden="true"></i>
+                <div className="icon-box  text-center"><div><i className="fa fa-address-card icon " aria-hidden="true"></i>
                   <br />
                   <h5>
                     Address
@@ -87,7 +87,7 @@ const Contact = () => {
             </div>
           </div>
 
-          <form className="contact-form p-5" onSubmit={handleSubmit}>
+          <form className="contact-form" onSubmit={handleSubmit}>
             <h1 className=''>Get in Touch</h1>
             <div className="form-group">
               <input

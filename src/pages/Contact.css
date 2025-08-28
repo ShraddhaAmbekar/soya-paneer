@@ -53,7 +53,7 @@
 
 /* Contact Info */
 .contact-info {
-  flex: 1 1 350px;
+  flex: 1 1 300px;
 }
 
 /* Contact Form */
@@ -217,7 +217,7 @@
     flex: 1 1 180px;
 font-size:10px ;
     max-width: 350px;  /* keeps icons neat */
-    margin: 10px;
+ 
   }
 
   .icon {
