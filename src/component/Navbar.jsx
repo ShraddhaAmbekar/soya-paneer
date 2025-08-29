@@ -72,7 +72,7 @@ const Navbar = () => {
           <ul className="navbar-nav ms-auto">
             <li className="nav-item">
               <a className="nav-link" href="https://wa.me/918755259301" target="_blank" rel="noreferrer">
-                <i className="fab fa-whatsapp"></i>
+                <i className="fab fa-whatsapp"> </i>
               </a>
             </li>
             <li className="nav-item">

@@ -41,7 +41,7 @@ const About = () => {
               className="about-img"
             />
           </div>
-          <div className="col-lg-6">
+          <div className="col-lg-6"> 
             <h1 className="mb-3">Our Vision</h1>
             <p className="text-muted px-3">
 To become a trusted name in plant-based nutrition by leading the shift from adulterated and unhealthy food options to clean, sustainable, and cruelty-free alternatives — making a healthier planet and healthier people a reality.
