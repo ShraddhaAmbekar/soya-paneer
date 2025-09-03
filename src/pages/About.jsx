@@ -19,7 +19,7 @@ const About = () => {
         <div className="row align-items-center mb-5">
           <div className="col-lg-6 mb-4 mb-lg-0 about-img-container">
             <img
-              src="https://tse1.mm.bing.net/th/id/OIP.9gbUFXimHCxDhpTsMmBNsQHaFj?pid=Api&P=0&h=180"
+             src="/assets/images/mission2.png"
               alt="Our Mission"
               className="about-img"
             />
@@ -36,7 +36,7 @@ const About = () => {
         <div className="row align-items-center flex-lg-row-reverse">
           <div className="col-lg-6 mb-4 mb-lg-0 about-img-container">
             <img
-              src="https://tse3.mm.bing.net/th/id/OIP.uKvb1Xj7iXZSM5bY0Q7nwQHaFj?pid=Api&P=0&h=180"
+            src="/assets/images/vision.png"
               alt="Our Vision"
               className="about-img"
             />

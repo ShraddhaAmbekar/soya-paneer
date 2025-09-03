@@ -21,12 +21,14 @@ const Footer = () => {
             <p> Vegan Foods<br />
             277 Omkar Road, Dehradun, Uttarakhand, Pin -248001 </p>
             <p>Email: <a href="mailto:info@theveganfood.com" className="text-white text-decoration-underline">info@theveganfoods.com</a></p>
-            <p>Phone: &nbsp; 
-              <a className="text-white text-decoration-underline"> +91 8755259301</a><br />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
-                <a className="text-white text-decoration-underline"> +91 8755259303</a><br /> &nbsp; &nbsp; &nbsp; &nbsp; 
-      <a className="text-white text-decoration-underline">+91 8755259304</a><br /> &nbsp; &nbsp;    <a className="text-white text-decoration-underline"> +91 8755259305 (Sales) </a><br />&nbsp; &nbsp; 
-   <a className="text-white text-decoration-underline">  +91 8755259302 (Founder)</a><br /> &nbsp; &nbsp; &nbsp;
-                </p>
+            <p>Phone:</p> 
+             <p>Founder</p>
+              <ul className='con-num'><li><a className="text-white text-decoration-underline"> +91 8755259301</a></li><li>  <a className="text-white text-decoration-underline"> +91 8755259302</a></li></ul>
+              <p>Sales</p>
+      <ul className='con-num'>
+        <li><a className="text-white text-decoration-underline">+91 8755259303</a></li> <li><a className="text-white text-decoration-underline"> +91 8755259304 </a></li>
+   <li><a className="text-white text-decoration-underline">  +91 8755259305 </a></li></ul>
+               
 
           </div>
 

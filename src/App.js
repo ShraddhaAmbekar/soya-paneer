@@ -25,6 +25,12 @@ function App() {
           
           <Route />
         </Routes>
+        {/* <!-- WhatsApp Floating Button --> */}
+<a href="https://wa.me/918755259301" className="whatsapp-float" target="_blank" title="Chat with us on WhatsApp">
+    <img src="https://img.icons8.com/color/48/000000/whatsapp--v1.png" alt="WhatsApp"/>
+</a>
+
+
         <NewsletterFooter />
       </BrowserRouter>
     </div>

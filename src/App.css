@@ -206,7 +206,13 @@ height:100%
   font-family: 'Roboto', sans-serif;
   font-size: 20px;
 }
+.con-num{
+  font-size: 20px;
 
+}
+.con-num li{
+  list-style: none;
+}
 .footer-links {
   font-family: 'Roboto', sans-serif;
   font-size: 20px;
@@ -326,3 +332,20 @@ h1{
    padding: 50px 50px ;
       }
 }
+
+.whatsapp-float {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 9999;
+    background-color: transparent;
+    padding: 10px;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    transition: transform 0.2s;
+}
+
+.whatsapp-float:hover {
+    transform: scale(1.1);
+}
+
