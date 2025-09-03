@@ -1,8 +1,15 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 body {
   font-family: 'Bebas Neue', sans-serif;
   background-color: #F9F9F9;
   /* color: #2C3E2F */
-  color:#008037
+  color:#008037;
+  
 }
 
 .logo {
@@ -207,6 +214,7 @@ height:100%
   font-size: 20px;
 }
 .con-num{
+  
   font-size: 20px;
 
 }

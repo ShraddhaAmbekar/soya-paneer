@@ -1,6 +1,18 @@
-import React from 'react';
+import React, { useState } from 'react';
+import { useNavigate } from 'react-router';
+
+
 
 const Home = () => {
+  const navigate =useNavigate()
+  const [email, setEmail]=useState()
+
+  const handleSubmit =(e) =>{
+    e.preventDefault()
+    console.log("subscreibed with email:",email);
+    setEmail("")
+    alert("Thank you for subscribed")
+  }
   return (
     <div>
       <div className='section1 container-fluid'>
@@ -35,7 +47,7 @@ const Home = () => {
               </p>
 
               <div className='action-div'>
-                <button className="action-btn mt-3">ABOUT US &nbsp; &nbsp; &nbsp; &nbsp;→</button>
+                <button className="action-btn mt-3" onClick={()=>navigate('/about')}>ABOUT US &nbsp; &nbsp; &nbsp; &nbsp;→</button>
               </div>
              
             </div>
@@ -112,8 +124,8 @@ const Home = () => {
 
           <div className='row'>
             <div className='col-md-6 col-sm-12 newsletter d-flex'>
-              <input type="text" placeholder='Enter your email here' />
-              <button className="action-btn mt-3">Submit &nbsp; &nbsp;→</button>
+              <input type="text" placeholder='Enter your email here'/>
+              <button className="action-btn mt-3" onClick={handleSubmit}>Submit &nbsp; &nbsp;→</button>
             </div>
             <div className="d-flex align-items-center mt-3 col-md-6 col-sm-12">
               <input type="checkbox" className="me-2 p-2" />
