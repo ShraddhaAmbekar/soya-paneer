@@ -57,7 +57,7 @@ const Navbar = () => {
               </NavLink>
             </li>
             <li className="nav-item">
-              <NavLink className="nav-link" to="/products" onClick={closeMenu}>
+              <NavLink className="nav-link" to="/" onClick={closeMenu}>
                 Our Products
               </NavLink>
             </li>
