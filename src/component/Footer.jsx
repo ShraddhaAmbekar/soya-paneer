@@ -8,18 +8,18 @@ const Footer = () => {
       {/* Footer */}
       <footer className="text-white footer">
         <div className="container">
-          <div className="row py-5 gy-5">
+          <div className="row py-5">
             
             {/* Working Hours */}
-            <div className="col-12 col-sm-6 col-md-3 text-center text-md-start">
-              <h4 className="mb-4">Working Hours</h4>
+            <div className="col-12 col-sm-6 col-md-3 text-center text-md-start mb-4">
+              <h4 className="mb-2">Working Hours</h4>
               <p className="mb-2">Mon - Fri: 9 AM – 8 PM</p>
               <p className="mb-0">Sat - Sun: Closed</p>
             </div>
 
             {/* Address */}
-            <div className="col-12 col-sm-6 col-md-3 text-center text-md-start">
-              <h4 className="mb-4">Address</h4>
+            <div className="col-12 col-sm-6 col-md-3 text-center text-md-start  mb-4">
+              <h4 className="mb-2">Address</h4>
               <p className="mb-2">
                 Vegan Foods <br />
                 277 Omkar Road <br />
@@ -38,8 +38,8 @@ const Footer = () => {
             </div>
 
             {/* Quick Links */}
-            <div className="col-12 col-sm-6 col-md-3 text-center text-md-start">
-              <h4 className="mb-4 ">Quick Links</h4>
+            <div className="col-12 col-sm-6 col-md-3 text-center text-md-start  mb-4">
+              <h4 className="mb-2 ">Quick Links</h4>
               <ul className="list-unstyled footer-links">
                 <li className="mb-2">
                   <Link to="/" className="footer-link">
@@ -65,8 +65,8 @@ const Footer = () => {
             </div>
 
             {/* Contact Numbers */}
-            <div className="col-12 col-sm-6 col-md-3 text-center text-md-start">
-              <h4 className="mb-4">Contact</h4>
+            <div className="col-12 col-sm-6 col-md-3 text-center text-md-start mb-4">
+              <h4 className="mb-2">Contact</h4>
 
               <div className="mb-3">
                 <p className="fw-semibold mb-1">Founder</p>

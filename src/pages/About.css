@@ -77,6 +77,13 @@ height:350px !important;
 } 
 }
 @media (max-width: 768px) {
+
+  .about-hero {
+  background: url("/public/assets/images/about-mob.png") center/cover no-repeat;
+  
+
+}
+
  .about-img-container{
 
 width:350px !important;

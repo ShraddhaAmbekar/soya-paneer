@@ -183,6 +183,11 @@
   }
 }
 
+@media (max-width: 992px) {
+    .contact-hero {
+   background: url("/public/assets/images/about-mob.png") center/cover no-repeat;
+  }
+}
 /* Mobiles */
 @media (max-width: 576px) {
   .contact-hero {
